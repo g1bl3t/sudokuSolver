@@ -15,8 +15,8 @@ class Array2d:
     def set(self, x, y, val):
         self.rows[x][y] = val
 
-myArray = Array2d(3,3)
+#myArray = Array2d(3,3)
 #print(myArray.rows)
 
-myArray.set(1,1,3)
-print(myArray.get(1,1))
+#myArray.set(1,1,3)
+#print(myArray.get(1,1))
