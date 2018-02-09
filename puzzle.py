@@ -126,6 +126,14 @@ class Puzzle:
 
         print("checkBox")
         return True
+
+
+    def setVal(self,x,y,val):
+        return self.matrix.set(x,y,val)
+
+    def getVal(self,x,y):
+        return self.matrix.get(x,y)
+
 #lst = [0,1,2,3,4,5,6,7,8]
 #puzz = Puzzle(lst)
 #testList = Puzzle.fileToList("testPuzz2")
