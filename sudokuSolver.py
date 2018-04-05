@@ -15,7 +15,7 @@ class SudokuSolver:
     def backtracker(self,i):
         #solve the puzzle using a backtracking algo
         print("called at {}".format(i))
-        if(i == len(self.puzz) - 1):
+        if(i == len(self.puzz)):
             print("~~~~~SOLVED~~~~~")
             print("Solution: {}".format(self.solution))
             print("length: {} ".format(len(self.solution)))
